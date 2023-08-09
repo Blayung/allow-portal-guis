@@ -2,16 +2,15 @@
     "schemaVersion": 1,
 
     "id": "allow-portal-guis",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Allow Portal GUIs",
-    "description": "This minecraft fabric mod allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible in vanilla minecraft.",
+    "description": "This mod allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible to do in vanilla minecraft.",
     "icon": "assets/allow-portal-guis/icon.png",
     "license": "GPL-3.0-only",
 
     "authors": [
         "Blay"
     ],
-    "contributors": [],
 
     "contact": {
         "homepage": "https://modrinth.com/mod/allow-portal-guis",
@@ -28,7 +27,6 @@
     },
 
     "environment": "client",
-
     "mixins": [
         "allow-portal-guis.mixins.json"
     ],
