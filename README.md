@@ -1,11 +1,12 @@
-[![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/allow-portal-guis) ![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/unsupported/forge_vector.svg)  
-  
-**This mod currently supports the 1.20.1 version of minecraft.**  
-You could try to run that mod on other versions of the game, but it's not guaranteed to work.
+[![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/allow-portal-guis) ![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/unsupported/forge_vector.svg)
+
 # Allow Portal GUIs
 
 ## What is this mod?
-This minecraft fabric mod allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible to do in vanilla minecraft.
+This minecraft fabric mod allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible to do in vanilla minecraft.  
+
+**This mod currently supports the 1.20.1 version of minecraft.**  
+You could try to run that mod on other versions of the game, but it's not guaranteed to work.
 
 ## Downloads
 You can download this mod on modrinth. [https://modrinth.com/mod/allow-portal-guis](https://modrinth.com/mod/allow-portal-guis)
