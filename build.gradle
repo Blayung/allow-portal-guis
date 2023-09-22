@@ -3,12 +3,12 @@ plugins {
 }
 
 dependencies {
-	minecraft "com.mojang:minecraft:1.20.1"
-	mappings "net.fabricmc:yarn:1.20.1+build.10:v2"
+	minecraft "com.mojang:minecraft:1.20.2"
+	mappings "net.fabricmc:yarn:1.20.2+build.1:v2"
 	modImplementation "net.fabricmc:fabric-loader:0.14.22"
 }
 
-base.archivesName = "allow-portal-guis-1.0.1"
+base.archivesName = "allow-portal-guis-1.0.2"
 
 jar.from("LICENSE")
 
