@@ -1,12 +1,12 @@
 {
-    "required": true,
     "minVersion": "0.8",
-    "package": "blay.allowportalguis.mixin",
-    "compatibilityLevel": "JAVA_17",
-    "client": [
-        "ClientPlayerEntityMixin"
-    ],
+    "required": true,
     "injectors": {
         "defaultRequire": 1
-    }
+    },
+    "compatibilityLevel": "JAVA_17",
+    "package": "blay.allowportalguis.mixin",
+    "client": [
+        "ClientPlayerEntityMixin"
+    ]
 }
