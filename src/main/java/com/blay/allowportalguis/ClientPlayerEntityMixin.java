@@ -1,4 +1,4 @@
-package blay.allowportalguis.mixin;
+package com.blay.allowportalguis;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Redirect;
