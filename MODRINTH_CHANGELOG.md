@@ -1,2 +1,1 @@
-- Fixed the game not launching (1.0.5)
-- Small code cleanup, mod's behaviour stays the same (1.0.4)
+- Changed the license file name (`LICENSE` -> `LICENSE.txt`)

@@ -11,4 +11,4 @@ This mod allows you to open different guis inside of a nether portal (fe. chat o
 0. Make sure you have git and jdk 17 installed. If not, check these links out: [https://git-scm.com/downloads](https://git-scm.com/downloads), [https://www.oracle.com/pl/java/technologies/downloads/#java17](https://www.oracle.com/pl/java/technologies/downloads/#java17). You can also try to install these programs with your distro's package manager.
 1. Clone the repo: `git clone https://github.com/Blayung/allow-portal-guis.git; cd allow-portal-guis`
 2. Compile the mod: `./gradlew build`
-3. Now the mod jar file should be here: `./build/libs/allow-portal-guis-1.0.4.jar`
+3. Now the mod jar file should be here: `./build/libs/allow-portal-guis-1.0.6.jar`
