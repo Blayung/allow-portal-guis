@@ -1,1 +1,1 @@
-- Changed the license file name (`LICENSE` -> `LICENSE.txt`)
+- Updated to 1.20.5

@@ -2,7 +2,7 @@
     "schemaVersion": 1,
 
     "id": "allow-portal-guis",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "name": "Allow Portal GUIs",
     "description": "This mod allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible to do in vanilla minecraft.",
     "icon": "assets/allow-portal-guis/icon.png",
