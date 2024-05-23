@@ -2,8 +2,8 @@
 
 # Allow Portal GUIs
 
-## What is this mod?
-This minecraft fabric mod allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible to do in vanilla minecraft.  
+## What is this?
+This is a minecraft fabric mod that allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible to do in vanilla minecraft.  
   
 **This mod currently supports all minecraft versions from 1.14 to 1.20.6.**
 
