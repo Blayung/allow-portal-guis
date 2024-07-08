@@ -10,8 +10,8 @@ import net.minecraft.client.MinecraftClient;
 
 @Mixin(ClientPlayerEntity.class)
 public class ClientPlayerEntityMixin {
-    @Redirect(method = "updateNausea", at = @At(value = "FIELD", target = "Lnet/minecraft/client/MinecraftClient;currentScreen:Lnet/minecraft/client/gui/screen/Screen;"))
-    private Screen currentScreen(MinecraftClient client) {
+    @Redirect(method = "tickNausea", at = @At(value = "FIELD", target = "Lnet/minecraft/client/MinecraftClient;currentScreen:Lnet/minecraft/client/gui/screen/Screen;"))
+    private Screen tickNauseaCurrentScreen(MinecraftClient client) {
         return null;
     }
 }

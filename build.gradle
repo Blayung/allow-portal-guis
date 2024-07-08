@@ -1,17 +1,19 @@
 plugins {
-	id "fabric-loom" version "1.6-SNAPSHOT"
+	id "fabric-loom" version "1.7-SNAPSHOT"
     id "com.modrinth.minotaur" version "2.+"
 }
 
 dependencies {
-	minecraft "com.mojang:minecraft:1.20.6"
-	mappings "net.fabricmc:yarn:1.20.6+build.1:v2"
-	modImplementation "net.fabricmc:fabric-loader:0.15.10"
+	minecraft "com.mojang:minecraft:1.21"
+	mappings "net.fabricmc:yarn:1.21+build.2:v2"
+	modImplementation "net.fabricmc:fabric-loader:0.15.11"
 }
 
-base.archivesName = "allow-portal-guis-1.0.8"
+def modVersion = "1.1.0"
 
-def javaVersion = JavaVersion.VERSION_17
+base.archivesName = "allow-portal-guis-" + modVersion
+
+def javaVersion = JavaVersion.VERSION_21
 
 java {
     sourceCompatibility = javaVersion
@@ -26,13 +28,13 @@ modrinth {
     uploadFile = remapJar
     projectId = "allow-portal-guis"
     changelog = rootProject.file("MODRINTH_CHANGELOG.md").text
-    versionName = "Allow Portal GUIs 1.0.8"
-    versionNumber = "1.0.8"
-    gameVersions = ["1.14", "1.14.1", "1.14.2", "1.14.3", "1.14.4", "1.15", "1.15.1", "1.15.2", "1.16", "1.16.1", "1.16.2", "1.16.3", "1.16.4", "1.16.5", "1.17", "1.17.1", "1.18", "1.18.1", "1.18.2", "1.19", "1.19.1", "1.19.2", "1.19.3", "1.19.4", "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4", "1.20.5", "1.20.6"]
+    versionName = "Allow Portal GUIs " + modVersion
+    versionNumber = modVersion
+    gameVersions = ["1.21"]
     loaders = ["fabric", "quilt"]
 }
 
 task modrinthUpload {
-    dependsOn 'modrinth'
-    dependsOn 'modrinthSyncBody'
+    dependsOn "modrinth"
+    dependsOn "modrinthSyncBody"
 }
