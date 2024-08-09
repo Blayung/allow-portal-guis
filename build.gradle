@@ -30,7 +30,7 @@ modrinth {
     changelog = rootProject.file("MODRINTH_CHANGELOG.md").text
     versionName = "Allow Portal GUIs " + modVersion
     versionNumber = modVersion
-    gameVersions = ["1.21"]
+    gameVersions = ["1.21", "1.21.1"]
     loaders = ["fabric", "quilt"]
 }
 
