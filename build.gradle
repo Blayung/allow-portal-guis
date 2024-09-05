@@ -9,7 +9,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:0.15.11"
 }
 
-def modVersion = "1.1.1"
+def modVersion = "1.1.2"
 
 base.archivesName = "allow-portal-guis-" + modVersion
 
@@ -21,6 +21,12 @@ java {
 }
 
 jar.from("LICENSE.txt")
+
+processResources {
+	filesMatching("fabric.mod.json") {
+		expand "version": modVersion
+	}
+}
 
 modrinth {
     token = System.getenv("MINOTAUR_PAT")

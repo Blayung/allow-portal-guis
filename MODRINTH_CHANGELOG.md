@@ -1,1 +1,1 @@
-- Updated my email in the mod's metadata
+- Fixed mod version appearing as ${modVersion}
