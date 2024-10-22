@@ -10,7 +10,7 @@
 
     "license": "GPL-3.0-only",
     "authors": [
-        "Wojciech Paruch <teamaster69@proton.me>"
+        "Wojciech Paruch"
     ],
 
     "contact": {
@@ -18,13 +18,6 @@
         "sources": "https://github.com/Blayung/allow-portal-guis",
         "issues": "https://github.com/Blayung/allow-portal-guis/issues",
         "email": "teamaster69@proton.me"
-    },
-    "custom": {
-        "modmenu": {
-            "links": {
-                "modmenu.modrinth": "https://modrinth.com/mod/allow-portal-guis"
-            }
-        }
     },
 
     "environment": "client",
