@@ -1,23 +1,26 @@
 plugins {
-	id "fabric-loom" version "1.10-SNAPSHOT"
+    id "net.fabricmc.fabric-loom" version "1.15-SNAPSHOT"
     id "com.modrinth.minotaur" version "2.+"
 }
 
 dependencies {
-	minecraft "com.mojang:minecraft:1.21.7"
-	mappings "net.fabricmc:yarn:1.21.7+build.1:v2"
-	modImplementation "net.fabricmc:fabric-loader:0.16.14"
+	minecraft "com.mojang:minecraft:26.1"
+	implementation "net.fabricmc:fabric-loader:0.18.5"
 }
 
-def modVersion = "1.1.6"
+def modVersion = "1.2.0"
 
 base.archivesName = "allow-portal-guis-" + modVersion
 
-def javaVersion = JavaVersion.VERSION_21
+def javaVersion = JavaVersion.VERSION_25
 
 java {
     sourceCompatibility = javaVersion
     targetCompatibility = javaVersion
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = javaVersion.majorVersion.toInteger()
 }
 
 jar.from("LICENSE.txt")
@@ -31,12 +34,12 @@ processResources {
 modrinth {
     token = System.getenv("MINOTAUR_PAT")
     syncBodyFrom = rootProject.file("modrinth/readme.md").text
-    uploadFile = remapJar
+    uploadFile = jar
     projectId = "allow-portal-guis"
     changelog = rootProject.file("modrinth/changelog.md").text
     versionName = "Allow Portal GUIs " + modVersion
     versionNumber = modVersion
-    gameVersions = ["1.21", "1.21.1", "1.21.2", "1.21.3", "1.21.4", "1.21.5", "1.21.6", "1.21.7"]
+    gameVersions = ["26.1"]
     loaders = ["fabric"]
 }
 

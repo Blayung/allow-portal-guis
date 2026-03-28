@@ -3,13 +3,15 @@
 # Allow Portal GUIs
 
 ## What is this?
-This is a minecraft fabric mod that allows you to open different guis inside of a nether portal (fe. chat or the inventory), which is impossible to do in vanilla minecraft.
+This is a minecraft fabric mod that allows you to open different guis inside of a nether portal, which is impossible to do in vanilla minecraft.
+
+Since minecraft 26.1, this mod is no longer needed for opening the chat but it does allow you to open your inventory and other guis.
 
 ## Downloads
 You can download this mod on modrinth. [https://modrinth.com/mod/allow-portal-guis](https://modrinth.com/mod/allow-portal-guis)
 
 ## How to compile this mod? (assuming you're on linux)
-0. Make sure you have git and jdk 21 installed. If not, check these links out: [https://git-scm.com/downloads](https://git-scm.com/downloads), [https://www.oracle.com/pl/java/technologies/downloads](https://www.oracle.com/pl/java/technologies/downloads). You can also try to install these programs with your distro's package manager.
+0. Make sure you have git and jdk 25 installed.
 1. Clone the repo: `git clone https://github.com/Blayung/allow-portal-guis.git; cd allow-portal-guis`
 2. Compile the mod: `./gradlew build`
 3. Now the mod jar file should be in the `./build/libs` folder.

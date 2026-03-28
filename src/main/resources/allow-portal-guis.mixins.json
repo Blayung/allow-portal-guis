@@ -3,9 +3,9 @@
     "injectors": {
         "defaultRequire": 1
     },
-    "compatibilityLevel": "JAVA_21",
+    "compatibilityLevel": "JAVA_25",
     "package": "com.blay.allowportalguis",
     "client": [
-        "ClientPlayerEntityMixin"
+        "LocalPlayerMixin"
     ]
 }
